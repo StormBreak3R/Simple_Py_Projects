@@ -1,0 +1,20 @@
+https://statsapi.web.nhl.com/api/v1/teams
+
+From this REST API, collect all the following informations:
+1. Team name
+2. Venu timezone id
+3. Abbreviation
+
+Example:
+[
+    {
+        "teamName": "Devils",
+        "timeZoneId": "America/New_York",
+        "abbreviation": "NJD"
+    },
+    {
+        "teamName": "New York Islanders",
+        "timeZoneId": "America/New_York",
+        "abbreviation": "NYI"
+    }
+]
